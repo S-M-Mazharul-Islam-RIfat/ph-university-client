@@ -13,7 +13,7 @@ const MainLayout = () => {
    }
 
    return (
-      <Layout style={{ height: '100vh' }}>
+      <Layout>
          <Sidebar></Sidebar>
          <Layout>
             <Header> <Button onClick={handleLogout}>Logout</Button> </Header>
